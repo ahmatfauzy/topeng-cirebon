@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budaya Cirebon - Warisan Nusantara</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-container">
+        <ul class="navbar-nav">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#tentang" class="nav-link">Tentang</a></li>
+          <li>
+            <a href="#" class="navbar-brand"
+              >Topeng<span class="red-text">Cirebon</span></a
+            >
+          </li>
+          <li><a href="#jenis" class="nav-link">Jenis</a></li>
+          <li><a href="#histori" class="nav-link">Histori</a></li>
+        </ul>
+        <button class="navbar-toggler" id="navbarToggler">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#tentang" class="nav-link">Tentang</a>
+      <a href="#" class="navbar-brand"
+        >Topeng<span class="red-text">Cirebon</span></a
+      >
+      <a href="#jenis" class="nav-link">Jenis</a>
+      <a href="#histori" class="nav-link">Histori</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Topeng Cirebon</h1>
+          <!-- <h2 class="hero-subtitle">Warisan Leluhur Nusantara</h2> -->
+          <p class="hero-description">
+            Temukan pesona Topeng Cirebon, simbol budaya yang sarat makna dan
+            sejarah. Dari gerak tari yang memikat hingga motif batik yang khas,
+            setiap warisan leluhur ini mengajarkan nilai-nilai kearifan lokal
+            yang tetap hidup hingga kini.
+          </p>
+          <div class="hero-buttons">
+            <a href="#explore" class="btn-discover" onclick="exploreMore()"
+              >Jelajahi Sekarang</a
+            >
+            <!-- <a href="#gallery" class="btn-discover" onclick="openGallery()"
+              >Galeri Budaya</a
+            > -->
+          </div>
+        </div>
+        <div class="hero-image">
+          <!-- Image is handled by CSS background -->
+        </div>
+      </div>
+    </section>
+
+    <!-- History Section -->
+    <section class="history-section" id="histori">
+      <div class="history-background-text">HISTORI</div>
+      <div class="history-content">
+        <div class="history-image">
+          <img
+            src="assets/image copy 5.png"
+            alt="Keraton Cirebon Historical Architecture"
+          />
+        </div>
+        <div class="history-text">
+          <p class="history-subtitle">Perjalanan Waktu</p>
+          <h2 class="history-title">WARISAN BERABAD-ABAD</h2>
+          <p class="history-description">
+            Cirebon memiliki sejarah panjang sebagai pusat perdagangan dan
+            penyebaran Islam di Jawa Barat. Kota ini didirikan pada abad ke-15
+            oleh Sunan Gunung Jati, salah satu dari Wali Songo yang berperan
+            penting dalam islamisasi Pulau Jawa.
+          </p>
+
+          <!-- <div class="history-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon"></div>
+              <span>Didirikan pada abad ke-15 oleh Sunan Gunung Jati</span>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"></div>
+              <span>Pusat penyebaran agama Islam di Jawa Barat</span>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"></div>
+              <span>Perpaduan budaya Jawa, Sunda, Cina, dan Arab</span>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"></div>
+              <span>Keraton yang masih lestari hingga kini</span>
+            </div>
+          </div> -->
+
+          <a href="#" class="btn-discover" onclick="discoverHistory()"
+            >Pelajari Lebih Lanjut</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="types-section" id="jenis">
+      <div class="types-container">
+        <div class="types-content">
+          <div class="types-text">
+            <h2 class="types-title">
+              Jenis-Jenis <span class="black-text">Topeng Cirebon</span>
+            </h2>
+            <p class="types-description">
+              Topeng Cirebon memiliki beragam jenis yang masing-masing memiliki
+              karakter dan makna filosofis mendalam. Setiap topeng menggambarkan
+              sifat dan perilaku manusia yang berbeda, dari kesucian hingga
+              keberanian, dari kebijaksanaan hingga kesombongan. Keberagaman ini
+              menjadikan Topeng Cirebon sebagai warisan budaya yang kaya akan
+              nilai-nilai kehidupan.
+            </p>
+            <a href="jenis-topeng.html" class="btn-discover">
+              Jelajahi Topeng
+            </a>
+          </div>
+          <div class="types-image">
+            <div class="image-frame">
+              <img src="assets/topeng3.png" alt="Koleksi Topeng Cirebon" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+      <div class="gallery-background-text">GALERI</div>
+      <div class="gallery-container">
+        <div class="gallery-header">
+          <p class="gallery-subtitle">Koleksi Visual</p>
+          <h2 class="gallery-title">GALERI TOPENG CIREBON</h2>
+          <p class="gallery-description">
+            Jelajahi keindahan dan keunikan Topeng Cirebon melalui koleksi foto
+            yang menampilkan keragaman bentuk, warna, dan ekspresi yang menjadi
+            ciri khas warisan budaya ini.
+          </p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item large">
+            <img
+              src="assets/panji.png"
+              alt="Topeng Panji Cirebon"
+              class="gallery-image"
+            />
+            <div class="gallery-overlay">
+              <h3>Topeng Panji</h3>
+              <p>Simbol kesucian dan kemuliaan jiwa</p>
+            </div>
+          </div>
+          <div class="gallery-item tall">
+            <img
+              src="assets/ini.png"
+              alt="Pertunjukan Tari Topeng"
+              class="gallery-image"
+            />
+            <div class="gallery-overlay">
+              <h3>Pertunjukan Tari</h3>
+              <p>Gerakan yang memikat</p>
+            </div>
+          </div>
+          <div class="gallery-item small">
+            <img
+              src="assets/kelana.png"
+              alt="Topeng Kelana"
+              class="gallery-image"
+            />
+            <div class="gallery-overlay">
+              <h3>Topeng Kelana</h3>
+              <p>Simbol keberanian</p>
+            </div>
+          </div>
+          <div class="gallery-item small">
+            <img
+              src="assets/ww.png"
+              alt="Pertunjukan tari"
+              class="gallery-image"
+            />
+            <div class="gallery-overlay">
+              <h3>Pertunjukan Tari</h3>
+              <p>Gerakan yang memikat</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-extra">
+          <div class="gallery-item wide">
+            <img
+              src="assets/buat2.png"
+              alt="Proses Pembuatan Topeng"
+              class="gallery-image"
+            />
+            <div class="gallery-overlay">
+              <h3>Proses Pembuatan</h3>
+              <p>Kerajinan tangan tradisional</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="gallery-footer">
+          <a href="#" class="gallery-btn"> Lihat Semua Galeri </a>
+        </div> -->
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-decoration">TOPENG</div>
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              Topeng<span class="red-text">Cirebon</span>
+            </div>
+            <p class="footer-description">
+              Melestarikan warisan budaya Cirebon untuk generasi masa depan.
+              Topeng Cirebon bukan hanya seni, tetapi juga cerminan filosofi
+              kehidupan yang sarat makna dan nilai-nilai luhur.
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <h3>Jelajahi</h3>
+            <ul class="footer-links">
+              <li><a href="#home">Beranda</a></li>
+              <li><a href="#tentang">Tentang</a></li>
+              <li><a href="#jenis">Jenis Topeng</a></li>
+              <li><a href="#histori">Sejarah</a></li>
+              <li><a href="#gallery">Galeri</a></li>
+            </ul>
+          </div>
+
+          <!-- <div class="footer-section">
+            <h3>Budaya</h3>
+            <ul class="footer-links">
+              <li><a href="#">Tari Topeng</a></li>
+              <li><a href="#">Musik Tradisional</a></li>
+              <li><a href="#">Batik Cirebon</a></li>
+              <li><a href="#">Keraton Cirebon</a></li>
+              <li><a href="#">Festival Budaya</a></li>
+            </ul>
+          </div> -->
+
+          <div class="footer-section">
+            <h3>Kontak</h3>
+            <div class="footer-contact">
+              <p>Cirebon, Jawa Barat</p>
+              <p>www.topengcirebon.id</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-copyright">
+            © 2025 Topeng Cirebon. Semua hak cipta dilindungi.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
