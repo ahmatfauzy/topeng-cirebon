@@ -3,24 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Budaya Cirebon - Warisan Nusantara</title>
+    <title>TopengCirebon</title>
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" href="assets/icon.png" />
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar" id="navbar">
       <div class="navbar-container">
         <ul class="navbar-nav">
-          <li><a href="#home" class="nav-link">Home</a></li>
-          <li><a href="#tentang" class="nav-link">Tentang</a></li>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="history.html" class="nav-link">Histori</a></li>
           <li>
             <a href="#" class="navbar-brand"
               >Topeng<span class="red-text">Cirebon</span></a
             >
           </li>
-          <li><a href="#jenis" class="nav-link">Jenis</a></li>
-          <li><a href="#histori" class="nav-link">Histori</a></li>
+          <li><a href="jenis.html" class="nav-link">Jenis</a></li>
+          <li><a href="about.html" class="nav-link">Tentang</a></li>
         </ul>
         <button class="navbar-toggler" id="navbarToggler">
           <span></span>
@@ -32,20 +33,22 @@
 
     <!-- Mobile Menu -->
     <div class="mobile-menu" id="mobileMenu">
-      <a href="#home" class="nav-link">Home</a>
-      <a href="#tentang" class="nav-link">Tentang</a>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="history.html" class="nav-link">Histori</a>
       <a href="#" class="navbar-brand"
         >Topeng<span class="red-text">Cirebon</span></a
       >
-      <a href="#jenis" class="nav-link">Jenis</a>
-      <a href="#histori" class="nav-link">Histori</a>
+      <a href="jenis.html" class="nav-link">Jenis</a>
+      <a href="about.html" class="nav-link">Tentang</a>
     </div>
 
     <!-- Hero Section -->
     <section class="hero-section" id="home">
       <div class="hero-content">
         <div class="hero-text">
-          <h1 class="hero-title">Topeng Cirebon</h1>
+          <h1 class="hero-title">
+            Topeng<span class="red-text">Cirebon</span>
+          </h1>
           <!-- <h2 class="hero-subtitle">Warisan Leluhur Nusantara</h2> -->
           <p class="hero-description">
             Temukan pesona Topeng Cirebon, simbol budaya yang sarat makna dan
@@ -54,17 +57,13 @@
             yang tetap hidup hingga kini.
           </p>
           <div class="hero-buttons">
-            <a href="#explore" class="btn-discover" onclick="exploreMore()"
-              >Jelajahi Sekarang</a
-            >
+            <a href="#histori" class="btn-discover">Jelajahi Sekarang</a>
             <!-- <a href="#gallery" class="btn-discover" onclick="openGallery()"
               >Galeri Budaya</a
             > -->
           </div>
         </div>
-        <div class="hero-image">
-          <!-- Image is handled by CSS background -->
-        </div>
+        <div class="hero-image"></div>
       </div>
     </section>
 
@@ -74,7 +73,7 @@
       <div class="history-content">
         <div class="history-image">
           <img
-            src="assets/image copy 5.png"
+            src="assets/tari3.png"
             alt="Keraton Cirebon Historical Architecture"
           />
         </div>
@@ -82,34 +81,13 @@
           <p class="history-subtitle">Perjalanan Waktu</p>
           <h2 class="history-title">WARISAN BERABAD-ABAD</h2>
           <p class="history-description">
-            Cirebon memiliki sejarah panjang sebagai pusat perdagangan dan
-            penyebaran Islam di Jawa Barat. Kota ini didirikan pada abad ke-15
-            oleh Sunan Gunung Jati, salah satu dari Wali Songo yang berperan
-            penting dalam islamisasi Pulau Jawa.
+            Tari Topeng Cirebon berasal dari masa Kerajaan Cirebon dan awalnya
+            digunakan sebagai media dakwah serta hiburan di lingkungan keraton.
+            Seiring waktu, tari ini menjadi bagian penting dalam tradisi dan
+            budaya masyarakat Cirebon.
           </p>
 
-          <!-- <div class="history-highlights">
-            <div class="highlight-item">
-              <div class="highlight-icon"></div>
-              <span>Didirikan pada abad ke-15 oleh Sunan Gunung Jati</span>
-            </div>
-            <div class="highlight-item">
-              <div class="highlight-icon"></div>
-              <span>Pusat penyebaran agama Islam di Jawa Barat</span>
-            </div>
-            <div class="highlight-item">
-              <div class="highlight-icon"></div>
-              <span>Perpaduan budaya Jawa, Sunda, Cina, dan Arab</span>
-            </div>
-            <div class="highlight-item">
-              <div class="highlight-icon"></div>
-              <span>Keraton yang masih lestari hingga kini</span>
-            </div>
-          </div> -->
-
-          <a href="#" class="btn-discover" onclick="discoverHistory()"
-            >Pelajari Lebih Lanjut</a
-          >
+          <a href="history.html" class="btn-discover">Pelajari Lebih Lanjut</a>
         </div>
       </div>
     </section>
@@ -129,9 +107,7 @@
               menjadikan Topeng Cirebon sebagai warisan budaya yang kaya akan
               nilai-nilai kehidupan.
             </p>
-            <a href="jenis-topeng.html" class="btn-discover">
-              Jelajahi Topeng
-            </a>
+            <a href="jenis.html" class="btn-discover"> Jelajahi Topeng </a>
           </div>
           <div class="types-image">
             <div class="image-frame">
@@ -169,7 +145,7 @@
           </div>
           <div class="gallery-item tall">
             <img
-              src="assets/ini.png"
+              src="assets/tari1.png"
               alt="Pertunjukan Tari Topeng"
               class="gallery-image"
             />
@@ -191,7 +167,7 @@
           </div>
           <div class="gallery-item small">
             <img
-              src="assets/ww.png"
+              src="assets/tari2.png"
               alt="Pertunjukan tari"
               class="gallery-image"
             />
@@ -245,17 +221,6 @@
               <li><a href="#gallery">Galeri</a></li>
             </ul>
           </div>
-
-          <!-- <div class="footer-section">
-            <h3>Budaya</h3>
-            <ul class="footer-links">
-              <li><a href="#">Tari Topeng</a></li>
-              <li><a href="#">Musik Tradisional</a></li>
-              <li><a href="#">Batik Cirebon</a></li>
-              <li><a href="#">Keraton Cirebon</a></li>
-              <li><a href="#">Festival Budaya</a></li>
-            </ul>
-          </div> -->
 
           <div class="footer-section">
             <h3>Kontak</h3>
